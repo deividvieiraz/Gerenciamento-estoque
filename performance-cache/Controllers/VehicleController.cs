@@ -58,7 +58,7 @@ namespace performance_cache.Controllers
                 if (vehicleList == null || !vehicleList.Any())
                 {
                     logger.LogInformation("Nenhum veículo encontrado no banco de dados");
-                    return Ok(new List<Vehicle>());
+                    return Ok(new List<StockMovement>());
                 }
 
                 // Tentar salvar no cache
@@ -88,7 +88,7 @@ namespace performance_cache.Controllers
 
         // POST: api/vehicle
         [HttpPost]
-        public async Task<IActionResult> Post([FromBody] Vehicle vehicle)
+        public async Task<IActionResult> Post([FromBody] StockMovement vehicle)
         {
             try
             {
@@ -137,7 +137,7 @@ namespace performance_cache.Controllers
 
         // PUT: api/vehicle/{id}
         [HttpPut("{id}")]
-        public async Task<IActionResult> Put(int id, [FromBody] Vehicle vehicle)
+        public async Task<IActionResult> Put(int id, [FromBody] StockMovement vehicle)
         {
             try
             {

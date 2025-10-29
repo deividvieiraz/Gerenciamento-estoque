@@ -12,16 +12,16 @@ namespace Repository
             _connection = new MySqlConnection(connectionString);
         }
 
-        public async Task<IEnumerable<Vehicle>> GetAllVehiclesAsync()
+        public async Task<IEnumerable<StockMovement>> GetAllVehiclesAsync()
         {
             await _connection.OpenAsync();
             string sql = "SELECT id, brand, model, year, plate, color FROM vehicle;";
-            var vehicles = await _connection.QueryAsync<Vehicle>(sql);
+            var vehicles = await _connection.QueryAsync<StockMovement>(sql);
             await _connection.CloseAsync();
             return vehicles;
         }
 
-        public async Task<int> AddVehicleAsync(Vehicle vehicle)
+        public async Task<int> AddVehicleAsync(StockMovement vehicle)
         {
             if (vehicle == null)
                 throw new ArgumentNullException(nameof(vehicle), "Veículo inválido.");
@@ -36,7 +36,7 @@ namespace Repository
             return id;
         }
 
-        public async Task UpdateVehicleAsync(Vehicle vehicle)
+        public async Task UpdateVehicleAsync(StockMovement vehicle)
         {
             if (vehicle == null || vehicle.Id <= 0)
                 throw new ArgumentException("Veículo inválido.", nameof(vehicle));

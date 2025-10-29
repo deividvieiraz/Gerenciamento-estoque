@@ -4,9 +4,9 @@ namespace Repository
 {
     public interface IVehicleRepository
     {
-        Task<IEnumerable<Vehicle>> GetAllVehiclesAsync();
-        Task<int> AddVehicleAsync(Vehicle vehicle);
-        Task UpdateVehicleAsync(Vehicle vehicle);
+        Task<IEnumerable<StockMovement>> GetAllVehiclesAsync();
+        Task<int> AddVehicleAsync(StockMovement vehicle);
+        Task UpdateVehicleAsync(StockMovement vehicle);
         Task DeleteVehicleAsync(int id);
     }
 }
