@@ -134,11 +134,11 @@
             },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[13.0.3, )"
+              "version": "[13.0.4, )"
             },
             "StackExchange.Redis": {
               "target": "Package",
-              "version": "[2.9.11, )"
+              "version": "[2.9.32, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

@@ -121,3 +121,13 @@ C:\Users\xavie\OneDrive\Documents\fiap\GerenciamentoVeiculos\performance-cache\o
 C:\Users\xavie\OneDrive\Documents\fiap\GerenciamentoVeiculos\performance-cache\obj\Debug\net8.0\performa.EB9F738F.Up2Date
 C:\Users\xavie\OneDrive\Documents\fiap\GerenciamentoVeiculos\performance-cache\obj\Debug\net8.0\performance-cache.genruntimeconfig.cache
 C:\Users\xavie\OneDrive\Documents\fiap\GerenciamentoVeiculos\performance-cache\obj\Debug\net8.0\ref\performance-cache.dll
+C:\Users\labsfiap\gerenciamento-veiculos\performance-cache\obj\Debug\net8.0\performance-cache.csproj.AssemblyReference.cache
+C:\Users\labsfiap\gerenciamento-veiculos\performance-cache\obj\Debug\net8.0\performance-cache.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\labsfiap\gerenciamento-veiculos\performance-cache\obj\Debug\net8.0\performance-cache.AssemblyInfoInputs.cache
+C:\Users\labsfiap\gerenciamento-veiculos\performance-cache\obj\Debug\net8.0\performance-cache.AssemblyInfo.cs
+C:\Users\labsfiap\gerenciamento-veiculos\performance-cache\obj\Debug\net8.0\performance-cache.csproj.CoreCompileInputs.cache
+C:\Users\labsfiap\gerenciamento-veiculos\performance-cache\obj\Debug\net8.0\performance-cache.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\labsfiap\gerenciamento-veiculos\performance-cache\obj\Debug\net8.0\performance-cache.sourcelink.json
+C:\Users\labsfiap\gerenciamento-veiculos\performance-cache\obj\Debug\net8.0\performance-cache.dll
+C:\Users\labsfiap\gerenciamento-veiculos\performance-cache\obj\Debug\net8.0\refint\performance-cache.dll
+C:\Users\labsfiap\gerenciamento-veiculos\performance-cache\obj\Debug\net8.0\performance-cache.pdb

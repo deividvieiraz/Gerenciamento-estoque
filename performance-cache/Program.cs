@@ -10,12 +10,12 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<IVehicleRepository, VehicleRepository>(provider =>
+builder.Services.AddScoped<IProductRepository, ProductRepository>(provider =>
 {
     var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") 
                            ?? "Server=localhost;Database=fiap;User=root;Password=123;Port=3306;";
     
-    return new VehicleRepository(connectionString);
+    return new ProductRepository(connectionString);
 });
 
 var app = builder.Build();
