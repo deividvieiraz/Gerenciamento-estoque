@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\labsfiap\\gerenciamento-veiculos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{54124C6C-24C2-424E-9DCF-F77C03F5FE31}|Domain\\Domain.csproj|c:\\users\\labsfiap\\gerenciamento-veiculos\\domain\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54124C6C-24C2-424E-9DCF-F77C03F5FE31}|Domain\\Domain.csproj|solutionrelative:domain\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{52865EC2-242E-450C-9F3C-EFED8498A97E}|performance-cache\\performance-cache.csproj|c:\\users\\labsfiap\\gerenciamento-veiculos\\performance-cache\\service\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52865EC2-242E-450C-9F3C-EFED8498A97E}|performance-cache\\performance-cache.csproj|solutionrelative:performance-cache\\service\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{52865EC2-242E-450C-9F3C-EFED8498A97E}|performance-cache\\performance-cache.csproj|c:\\users\\labsfiap\\gerenciamento-veiculos\\performance-cache\\service\\istockmovementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{52865EC2-242E-450C-9F3C-EFED8498A97E}|performance-cache\\performance-cache.csproj|solutionrelative:performance-cache\\service\\istockmovementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52865EC2-242E-450C-9F3C-EFED8498A97E}|performance-cache\\performance-cache.csproj|c:\\users\\labsfiap\\gerenciamento-veiculos\\performance-cache\\service\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52865EC2-242E-450C-9F3C-EFED8498A97E}|performance-cache\\performance-cache.csproj|solutionrelative:performance-cache\\service\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54124C6C-24C2-424E-9DCF-F77C03F5FE31}|Domain\\Domain.csproj|c:\\users\\labsfiap\\gerenciamento-veiculos\\domain\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54124C6C-24C2-424E-9DCF-F77C03F5FE31}|Domain\\Domain.csproj|solutionrelative:domain\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52865EC2-242E-450C-9F3C-EFED8498A97E}|performance-cache\\performance-cache.csproj|c:\\users\\labsfiap\\gerenciamento-veiculos\\performance-cache\\exceptions\\exceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52865EC2-242E-450C-9F3C-EFED8498A97E}|performance-cache\\performance-cache.csproj|solutionrelative:performance-cache\\exceptions\\exceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52865EC2-242E-450C-9F3C-EFED8498A97E}|performance-cache\\performance-cache.csproj|c:\\users\\labsfiap\\gerenciamento-veiculos\\performance-cache\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52865EC2-242E-450C-9F3C-EFED8498A97E}|performance-cache\\performance-cache.csproj|solutionrelative:performance-cache\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52865EC2-242E-450C-9F3C-EFED8498A97E}|performance-cache\\performance-cache.csproj|c:\\users\\labsfiap\\gerenciamento-veiculos\\performance-cache\\service\\stockmovementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52865EC2-242E-450C-9F3C-EFED8498A97E}|performance-cache\\performance-cache.csproj|solutionrelative:performance-cache\\service\\stockmovementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{52865EC2-242E-450C-9F3C-EFED8498A97E}|performance-cache\\performance-cache.csproj|c:\\users\\labsfiap\\gerenciamento-veiculos\\performance-cache\\service\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,11 +42,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "StockMovementService.cs",
+              "DocumentMoniker": "C:\\Users\\labsfiap\\gerenciamento-veiculos\\performance-cache\\Service\\StockMovementService.cs",
+              "RelativeDocumentMoniker": "performance-cache\\Service\\StockMovementService.cs",
+              "ToolTip": "C:\\Users\\labsfiap\\gerenciamento-veiculos\\performance-cache\\Service\\StockMovementService.cs",
+              "RelativeToolTip": "performance-cache\\Service\\StockMovementService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T23:58:44.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\labsfiap\\gerenciamento-veiculos\\performance-cache\\Service\\ProductService.cs",
+              "RelativeDocumentMoniker": "performance-cache\\Service\\ProductService.cs",
+              "ToolTip": "C:\\Users\\labsfiap\\gerenciamento-veiculos\\performance-cache\\Service\\ProductService.cs",
+              "RelativeToolTip": "performance-cache\\Service\\ProductService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T23:57:34.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Exceptions.cs",
+              "DocumentMoniker": "C:\\Users\\labsfiap\\gerenciamento-veiculos\\performance-cache\\Exceptions\\Exceptions.cs",
+              "RelativeDocumentMoniker": "performance-cache\\Exceptions\\Exceptions.cs",
+              "ToolTip": "C:\\Users\\labsfiap\\gerenciamento-veiculos\\performance-cache\\Exceptions\\Exceptions.cs",
+              "RelativeToolTip": "performance-cache\\Exceptions\\Exceptions.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA1wBoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T23:56:59.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\labsfiap\\gerenciamento-veiculos\\Domain\\Product.cs",
               "RelativeDocumentMoniker": "Domain\\Product.cs",
@@ -60,20 +111,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "IReportService.cs",
               "DocumentMoniker": "C:\\Users\\labsfiap\\gerenciamento-veiculos\\performance-cache\\Service\\IReportService.cs",
               "RelativeDocumentMoniker": "performance-cache\\Service\\IReportService.cs",
               "ToolTip": "C:\\Users\\labsfiap\\gerenciamento-veiculos\\performance-cache\\Service\\IReportService.cs",
               "RelativeToolTip": "performance-cache\\Service\\IReportService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-29T23:50:35.671Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "IProductService.cs",
               "DocumentMoniker": "C:\\Users\\labsfiap\\gerenciamento-veiculos\\performance-cache\\Service\\IProductService.cs",
               "RelativeDocumentMoniker": "performance-cache\\Service\\IProductService.cs",
@@ -81,12 +132,11 @@
               "RelativeToolTip": "performance-cache\\Service\\IProductService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T23:50:30.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T23:50:30.497Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "ManagementController.cs",
               "DocumentMoniker": "C:\\Users\\labsfiap\\gerenciamento-veiculos\\performance-cache\\Controllers\\ManagementController.cs",
               "RelativeDocumentMoniker": "performance-cache\\Controllers\\ManagementController.cs",
@@ -94,8 +144,7 @@
               "RelativeToolTip": "performance-cache\\Controllers\\ManagementController.cs",
               "ViewState": "AgIAAGkAAAAAAAAAAADwv6UAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T23:48:29.281Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T23:48:29.281Z"
             }
           ]
         }

@@ -1,4 +1,5 @@
 ﻿using Domain;
+using performance_cache.Exceptions;
 
 namespace performance_cache.Service
 {
@@ -16,14 +17,14 @@ namespace performance_cache.Service
         public void RegisterMovement(Product product, StockMovement movement)
         {
             if (movement.Quantity <= 0)
-                throw new ArgumentException("Quantity must be positive.");
+                throw new InvalidStockQuantityException("Quantity must be positive.");
 
             if (product.Category == Category.PERISHABLE)
             {
                 if (movement.ExpirationDate <= DateTime.Now)
-                    throw new ArgumentException("Perishable products must have expiration date.");
+                    throw new MovementValidationException("Perishable products must have expiration date.");
                 if (string.IsNullOrWhiteSpace(movement.Batch))
-                    throw new ArgumentException("Perishable products must have batch.");
+                    throw new MovementValidationException("Perishable products must have batch.");
             }
 
             if (movement.MovementType == MovementType.INBOUND)
@@ -33,7 +34,7 @@ namespace performance_cache.Service
             else 
             {
                 if (product.Quantity < movement.Quantity)
-                    throw new InvalidOperationException("Not enough stock quantity.");
+                    throw new InvalidStockQuantityException("Not enough stock quantity.");
 
                 product.Quantity -= movement.Quantity;
             }

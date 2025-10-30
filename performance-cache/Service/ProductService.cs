@@ -1,4 +1,5 @@
 ﻿using Domain;
+using performance_cache.Exceptions;
 
 namespace performance_cache.Service
 {
@@ -11,7 +12,7 @@ namespace performance_cache.Service
         {
             if (!ValidateProduct(product))
             {
-                throw new ArgumentException("Invalid Product. Verify mandatory data fields.");
+                throw new ProductValidationException("Invalid Product. Verify mandatory data fields.");
             }
 
             product.CreationDate = DateTime.Now;
